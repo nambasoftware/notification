@@ -1,0 +1,26 @@
+{
+    "name": "nambasoftware/notification",
+    "description": "This library is used to send email notifications of problems in the System.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gustavo Afonso Hito",
+            "email": "developer@nambasoftware.com",
+            "homepage": "https://www.nambasoftware.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpmailer/phpmailer": "6.4"
+    },
+    "config": {
+        "vendor-dir": "lib_ext"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\": "_app"
+        }
+    }
+}
